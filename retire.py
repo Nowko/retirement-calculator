@@ -41,7 +41,7 @@ defer_years = retirement_start_age - saving_end_age
 if defer_years < 0:
     st.error("수령 시작 나이는 저축 종료 나이 이후여야 합니다. 다시 입력해 주세요.")
 else:
-    if st.button("계산하기"):
+    if st.button("🧮 계산하기"):
         monthly_income_today_value, total_balance = retirement_income(
             start_age, monthly_saving, saving_years, defer_years, retirement_years, annual_return_rate, annual_inflation_rate
         )
