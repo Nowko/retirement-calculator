@@ -18,7 +18,7 @@ def retirement_income(start_age, monthly_saving, saving_years, defer_years, reti
         monthly_income = balance * r_real_monthly / (1 - (1 + r_real_monthly) ** (-months_retirement))
     return monthly_income, balance
 
-st.title("은퇴 자금 계산기")
+st.title("은퇴 저축 결과 계산기")
 
 st.sidebar.header("입력값 설정")
 start_age = st.sidebar.number_input("현재 나이", value=30, min_value=0, max_value=100)
