@@ -32,6 +32,9 @@ st.sidebar.caption(f"{retirement_start_age + retirement_years}세까지 연금�
 annual_return_rate = st.sidebar.number_input("연 수익률 (%)", value=2.7, step=0.1) / 100
 annual_inflation_rate = st.sidebar.number_input("연 물가상승률 (%)", value=2.1, step=0.1) / 100
 
+st.sidebar.markdown("---")
+st.sidebar.markdown("<div style='text-align: center; font-size: 12px;'>Made by <b>NOWKO</b> on Brunch</div>", unsafe_allow_html=True)
+
 saving_end_age = start_age + saving_years
 defer_years = retirement_start_age - saving_end_age
 
@@ -59,4 +62,3 @@ else:
         st.caption("※ 기본 설정은 연금을 90세에 종료하는 것으로 가정되어 있으며, 수령 기간을 조정할 수 있습니다.")
         st.caption("※ 매년 물가상승률만큼 인상된 금액으로 수령하여, 실질 구매력은 고정되도록 설계되었습니다.")
         st.markdown("---")
-        st.markdown("<div style='text-align: center; font-size: 13px;'>Made by <b>NOWKO</b> on Brunch</div>", unsafe_allow_html=True)
