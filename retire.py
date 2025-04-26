@@ -63,12 +63,12 @@ else:
         st.caption("※ 매년 물가상승률만큼 인상된 금액으로 수령하여, 실질 구매력은 고정되도록 설계되었습니다.")
         st.markdown("---")
         st.markdown("""
-<div style='background-color: #e8f0fe; padding: 15px; border-radius: 6px; font-size: 15px'>
-💡 복리는 돈을 키워주는 마법처럼 들리지만,<br>
+<div style='background-color: #e8f0fe; padding: 15px; border-radius: 6px; font-size: 15px; color: #1a1a1a;'>
+💡 <strong>복리는 돈을 키워주는 마법처럼 들리지만,</strong><br>
 사실은 계속 오르는 물가를 간신히 따라가는 기본 체력일 뿐입니다.<br><br>
 복리와 시간이 아무리 오래 작동해도,<br>
 결국 살 수 있는 물건은 그대로예요.<br>
-숫자만 커질 뿐, 내 삶의 질이 더 나아지진 않습니다.<br><br>
+숫자만 커질 뿐, <strong>내 삶의 질이 더 나아지진 않습니다.</strong><br><br>
 그래서 '빨리 시작하라'는 말은,<br>
 부자가 되라는 말이 아니라<br>
 <strong>더 가난해지지 않기 위한 현실 방어 전략</strong>입니다.
